@@ -16,9 +16,9 @@ body {
 
 /* Header Styling */
 header {
-    background: #ff6600; /* Orange */
+    background: #f5a623; /* Light Orange */
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
@@ -26,7 +26,34 @@ header h1 {
     margin: 0;
 }
 
-/* Blog Post Styling */
+/* Navigation Menu Styling */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f5a623; /* Light Orange */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .blog-post {
     background: #fff;
     margin: 20px 0;
@@ -37,18 +64,24 @@ header h1 {
 
 .blog-post h2 {
     margin-bottom: 10px;
-    color: #ff6600; /* Orange */
+    color: #f5a623; /* Light Orange */
 }
 
 .blog-post p {
     margin-bottom: 15px;
 }
 
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Footer Styling */
 footer {
-    background: #ff6600; /* Orange */
+    background: #f5a623; /* Light Orange */
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     margin-top: 20px;
 }
